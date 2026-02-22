@@ -1,9 +1,14 @@
 body {
-    background-color: white;
     font-family: sans-serif;
+    background-color: #dedede;
 }
 
-div#rodape {
+div#rodape{
+    background-color: rgb(9, 0, 52);
+    color: white;
+}
+
+div#rodape div#cima {
     display: flex;
     gap: 220px;
     background-color: rgb(9, 0, 52);
@@ -40,4 +45,16 @@ div#rodape {
 
 .rodape-bloco-redes-sociais img:hover{
     background-color: #959595;
+}
+
+div#rodape div#baixo {
+    border-top: 1px solid white;
+    clear: both;
+    display: flex;
+    gap: 800px;
+}
+
+div#rodape div#baixo p {
+    color: #959595;
+    padding: 0px 0px 0px 32px;
 }
