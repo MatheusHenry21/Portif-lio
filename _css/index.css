@@ -1,6 +1,48 @@
 body {
     font-family: sans-serif;
-    background-color: #dedede;
+    background-color: #909090;
+    margin: 0px;
+}
+
+div#menu {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    opacity: .97;
+    padding: 10px 177px 10px 0px;
+    border-bottom: 2px solid black;
+}
+
+div#menu img#developer {
+    width: 200px;
+    padding: 0px 360px 0px 50px;
+}
+
+div#menu header {
+    margin-top: 24px;
+}
+
+div#menu a {
+    font-weight: bold;
+    color: #303030;
+    text-decoration: none;
+    font-size: 12pt;
+    margin-left: 28px;
+}
+
+div#menu a:hover {
+    color: blue;
+}
+
+div#menu a#contato {
+    background-color: rgb(73, 73, 255);
+    color: white;
+    width: 10px;
+    padding: 8px;
+}
+
+div#menu a#contato:hover {
+    background-color: blue;
 }
 
 div#rodape{
