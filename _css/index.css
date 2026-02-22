@@ -2,3 +2,42 @@ body {
     background-color: white;
     font-family: sans-serif;
 }
+
+div#rodape {
+    display: flex;
+    gap: 220px;
+    background-color: rgb(9, 0, 52);
+    color: white;
+    padding: 30px;
+}
+
+.rodape-bloco ul {
+    list-style: none;
+    text-indent: -40px;
+}
+
+.rodape-bloco p {
+    color: #acacac;
+    text-decoration: none;
+}
+
+.rodape-bloco a {
+    color: #acacac;
+    text-decoration: none;
+    border: none;
+}
+
+.rodape-bloco a:hover {
+    color: white;
+}
+
+.rodape-bloco-redes-sociais img{
+    width: 20px;
+    background-color: rgb(60, 70, 70);
+    border-radius: 20%;
+    padding: 7px;
+}
+
+.rodape-bloco-redes-sociais img:hover{
+    background-color: #959595;
+}
