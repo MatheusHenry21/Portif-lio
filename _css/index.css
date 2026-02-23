@@ -105,12 +105,16 @@ div#rodape div#baixo p {
 
 
 
+div#inicio {
+    padding: 120px;
+}
 
 div#inicio img#perfil{
-    margin: 100px 530px -30px;
+    margin-left: 400px;
+    display: block;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 500%;
     right: 300px;
 }
 
@@ -134,7 +138,8 @@ div#inicio header h2 {
 }
 
 div#inicio div#biografia {
-    margin: 0px 200px 35px 200px;
+    margin: 0px 0px 35px 0px;
+    text-align: justify;
 }
 
 div#inicio p {
