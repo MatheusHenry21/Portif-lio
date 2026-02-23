@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #909090;
+    background-color: rgb(220, 220, 220);
     margin: 0px;
 }
 
@@ -10,12 +10,12 @@ div#menu {
     background-color: white;
     opacity: .97;
     padding: 10px 177px 10px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #909090;
 }
 
 div#menu img#developer {
     width: 200px;
-    padding: 0px 360px 0px 50px;
+    padding: 0px 345px 0px 50px;
 }
 
 div#menu header {
@@ -99,4 +99,51 @@ div#rodape div#baixo {
 div#rodape div#baixo p {
     color: #959595;
     padding: 0px 0px 0px 32px;
+}
+
+
+
+
+
+
+div#inicio img#perfil{
+    margin: 100px 530px -30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    right: 300px;
+}
+
+div#inicio header{
+    text-align: center;
+}
+
+div#inicio header h1 {
+    font-size: 50pt;
+    color: black;
+    margin-bottom: -20px;
+}
+
+div#inicio header h1 span{
+    color: rgb(73, 73, 255);;
+}
+
+div#inicio header h2 {
+    font-size: 20pt;
+    color: rgb(60, 70, 70);
+}
+
+div#inicio div#biografia {
+    margin: 0px 200px 35px 200px;
+}
+
+div#inicio p {
+    text-indent: 40px;
+    font-size: 16pt;
+    color: #404040;
+}
+
+div#inicio p span{
+    color: black;
+    font-weight: bold;
 }
