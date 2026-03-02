@@ -4,25 +4,27 @@ body {
     margin: 0px;
 }
 
-div#menu {
+/* Cabeçalho */
+
+header {
     position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
+    align-items: center;
     background-color: white;
     opacity: .97;
-    padding: 10px 177px 10px 0px;
+    padding: 10px 0px;
     border-bottom: 1px solid #909090;
 }
 
-div#menu img#developer {
+img#developer {
     width: 200px;
-    padding: 0px 345px 0px 50px;
+    margin-right: auto;
+    margin-left: 40px;
 }
 
-div#menu header {
-    margin-top: 24px;
-}
-
-div#menu a {
+nav#link-header a {
     font-weight: bold;
     color: #303030;
     text-decoration: none;
@@ -30,125 +32,128 @@ div#menu a {
     margin-left: 28px;
 }
 
-div#menu a:hover {
+nav#link-header a:hover {
     color: blue;
 }
 
-div#menu a#contato {
+nav#link-header a#contato {
     background-color: rgb(73, 73, 255);
     color: white;
     width: 10px;
-    padding: 8px;
+    padding: 12px 8px;
+    margin-right: 30px;
 }
 
-div#menu a#contato:hover {
+nav#link-header a#contato:hover {
     background-color: blue;
 }
 
-div#rodape{
+
+/* Rodapé*/
+
+
+footer#rodape{
     background-color: rgb(9, 0, 52);
     color: white;
 }
 
-div#rodape div#cima {
+footer#rodape div#cima {
     display: flex;
-    gap: 220px;
+    justify-content: space-between;
     background-color: rgb(9, 0, 52);
     color: white;
     padding: 30px;
 }
 
-.rodape-bloco ul {
+nav#links-rapidos ul {
     list-style: none;
-    text-indent: -40px;
+    padding: 0px;
 }
 
 .rodape-bloco p {
     color: #acacac;
-    text-decoration: none;
 }
 
-.rodape-bloco a {
+nav#links-rapidos a {
     color: #acacac;
     text-decoration: none;
     border: none;
 }
 
-.rodape-bloco a:hover {
+nav#links-rapidos a:hover {
     color: white;
 }
 
-.rodape-bloco-redes-sociais img{
+nav#redes-sociais img{
     width: 20px;
     background-color: rgb(60, 70, 70);
     border-radius: 20%;
     padding: 7px;
 }
 
-.rodape-bloco-redes-sociais img:hover{
+nav#redes-sociais img:hover{
     background-color: #959595;
 }
 
-div#rodape div#baixo {
-    border-top: 1px solid white;
-    clear: both;
+footer#rodape div#baixo {
     display: flex;
-    gap: 750px;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-top: 1px solid white;
 }
 
-div#rodape div#baixo p {
+footer#rodape div#baixo p {
     color: #959595;
-    padding: 0px 0px 0px 32px;
 }
 
+/* Principal */
 
 
-
-
-div#inicio {
-    padding: 120px;
+main#home {
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 120px 20px;
 }
 
-div#inicio img#perfil{
-    margin-left: 400px;
+img#perfil{
     display: block;
     width: 200px;
     height: 200px;
-    border-radius: 500%;
-    right: 300px;
+    border-radius: 50%;
+    margin: 0px auto 30px auto;
 }
 
-div#inicio header{
-    text-align: center;
-}
-
-div#inicio header h1 {
-    font-size: 50pt;
-    color: black;
-    margin-bottom: -20px;
-}
-
-div#inicio header h1 span{
-    color: rgb(73, 73, 255);;
-}
-
-div#inicio header h2 {
-    font-size: 20pt;
-    color: rgb(60, 70, 70);
-}
-
-div#inicio div#biografia {
-    margin: 0px 0px 35px 0px;
+section#biografia {
     text-align: justify;
 }
 
-div#inicio p {
+section#biografia p {
     text-indent: 40px;
-    font-size: 16pt;
+    font-size: 14pt;
     color: #404040;
 }
 
-div#inicio p span{
+section#biografia p strong{
     color: black;
     font-weight: bold;
+}
+
+div#apresentacao {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#apresentacao h1 {
+    font-size: 50pt;
+    color: black;
+    margin-bottom: 10px;
+}
+
+div#apresentacao h1 strong {
+    color: rgb(73, 73, 255);
+}
+
+div#apresentacao h2 {
+    font-size: 20pt;
+    color: rgb(60, 70, 70);
 }
